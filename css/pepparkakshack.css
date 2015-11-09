@@ -30,6 +30,19 @@
     transition: all .3s;
 }
 
+@media(max-width:500px){
+    h2{
+        font-size: 24px;
+    }
+}
+
+@media(min-width: 501px){
+    h2{
+        font-size: 32px;
+    }
+    
+}
+
 /*
 ul.social-buttons li a {
     display: block;
