@@ -31,15 +31,13 @@
 }
 
 @media(max-width:500px){
-    h2{
-        font-size: 24px;
+    h1{
+        font-size: 24px !important;
     }
 }
 
 @media(min-width: 501px){
-    h2{
-        font-size: 32px;
-    }
+
     
 }
 
