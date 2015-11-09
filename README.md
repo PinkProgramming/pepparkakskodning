@@ -1,18 +1,17 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
-
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+# [Pink Programming] (http://pinkprogramming.se) - [Pepparkakskodning](http://pinkprogramming.se/pepparkakskodning)
+[Pepparkakskodning](http://pinkprogramming.se/pepparkakskodning) is a one page event page for Pink Programming Sunday, created by [Pink Programming] (http://pinkprogramming.se). The page was made using the [Creative](http://startbootstrap.com/template-overviews/creative/) theme for [Bootstrap](http://getbootstrap.com/), which was created by [Start Bootstrap](http://startbootstrap.com/). 
 
 ## Getting Started
 
-To use this theme, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+To create a page like [Pepparkakskodning](http://pinkprogramming.se/pepparkakskodning), follow the steps in the related [tutorial on our Blog](http://pinkprogramming.wordpress.com). 
 
-## Bugs and Issues
-
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
+To use this page as template, fork this repository on GitHub. 
 
 ## Creator
+
+[Pepparkakskodning](http://pinkprogramming.se/pepparkakskodning) was created by **Vanja Tufvesson**, Founder of [Pink Programming] (http://pinkprogramming.se). 
+
+Pepparkakskodning is based on the [Creative](http://startbootstrap.com/template-overviews/creative/) theme by by [Start Bootstrap](http://startbootstrap.com/). 
 
 Start Bootstrap was created by and is maintained by **David Miller**, Managing Partner at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
 
