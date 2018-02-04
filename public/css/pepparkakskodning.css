@@ -25,6 +25,14 @@
     transition: all .3s;
 }
 
+.btn-fb-custom:hover {
+  color: grey;
+}
+
+aside {
+  padding: 4rem 0;
+}
+
 @media(max-width:500px){
     h1{
         font-size: 1.8em !important;
@@ -33,5 +41,5 @@
 
 @media(min-width: 501px){
 
-    
+
 }
