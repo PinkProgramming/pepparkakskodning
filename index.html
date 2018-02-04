@@ -9,7 +9,7 @@
     <meta name="description" content="Kom och programmera omgiven av andra kvinnor, ät pepparkakor och drick en kopp glögg. ">
     <meta name="author" content="">
 
-    <!-- For Facebook scraper --> 
+    <!-- For Facebook scraper -->
     <meta property="og:image"  content="http://pinkprogramming.se/pepparkakskodning/img/header_small.png" />
     <meta property="og:url"  content="http://pinkprogramming.se/pepparkakskodning/" />
     <meta property="og:title"  content="Pepparkakskodning med Pink Programming & DataTjej" />
@@ -18,19 +18,19 @@
 
     <title>Pepparkakskodning</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
     <!-- Custom Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <!-- Plugin CSS -->
+    <link href="magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
 
 
     <link rel="stylesheet" href="css/pepparkakskodning.css" type="text/css">
@@ -47,116 +47,123 @@
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Pepparkakskodning</a>
-            </div>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Pepparkakskodning</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#info">Info</a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#info">Info</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#register">Anmälan</a>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#register">Anmälan</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#organizer">Arrangör</a>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#organizer">Arrangör</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#sponsor">Sponsorer</a>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#sponsor">Sponsorer</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
+        <!-- /.container -->
     </nav>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-<!--                 <h2>Programmering </br>& </h2>
-                <h1>pepparkakor</h1> -->
-                <h1>PEPPARKAKSKODNING</h1>
-                <hr class="light">
-                <p>Söndagsprogrammering för kvinnor i Malmö & Umeå den 29 november </br> eller i Göteborg den 6 december</p>
-                <a href="#info" class="btn btn-primary btn-xl page-scroll">Läs mer</a>
-            </div>
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>PEPPARKAKSKODNING</strong>
+            </h1>
+            <hr class="light my-4">
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5">Söndagsprogrammering för kvinnor i Malmö & Umeå den 29 november </br> eller i Göteborg den 6 december</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Läs mer</a>
+          </div>
         </div>
+      </div>
+
     </header>
 
-    <section class="bg-primary" id="info">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Pepparkakskodning</h2>
-                    <hr class="light">
-                    <p class="text-faded">Fira in julen i Malmö, Umeå eller Göteborg tillsammans med Pink Programming och DataTjej. Kom och programmera omgiven av andra kvinnor, ät pepparkakor och drick en kopp glögg. Programmera i vilket språk du vill, i ett eget projekt eller något vi rekommenderar. Kvinnor i alla åldrar är välkomna. Inga förkunskaper krävs och självklart är eventet helt gratis. Det enda som krävs är att du har med dig egen dator, vill lära dig eller bara vill nätverka med andra kvinnor. </p>
-                    <a href="#register" class="btn btn-default btn-xl page-scroll">Häng med!</a>
-                </div>
-            </div>
+  <section class="bg-primary" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading text-white">Pepparkakskodning</h2>
+          <hr class="light my-4">
+          <p class="text-faded mb-4">Fira in julen i Malmö, Umeå eller Göteborg tillsammans med Pink Programming och DataTjej. Kom och programmera omgiven av andra kvinnor, ät pepparkakor och drick en kopp glögg. Programmera i vilket språk du vill, i ett eget projekt eller något vi rekommenderar. Kvinnor i alla åldrar är välkomna. Inga förkunskaper krävs och självklart är eventet helt gratis. Det enda som krävs är att du har med dig egen dator, vill lära dig eller bara vill nätverka med andra kvinnor.</p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#register">Häng med!</a>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section id="register">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Var & När?</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 text-center">
-                    <h3>Malmö</h3>
-                     <p class="text-muted">29 november kl 10-15</br><a href = "http://www.foocafe.org" target="_blank">Foo Café</p>
-                <a href="http://www.foocafe.org/event/programmering-foer-kvinnor-i-alla-aldrar1" target="_blank" class="btn btn-primary btn-lg wow tada">Anmälan Malmö</a></hr>
+  <section id="register">
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-12 text-center">
+             <h2 class="section-heading">Var & När?</h2>
+             <hr class="my-4">
+           </div>
+         </div>
+       </div>
+       <div class="container">
+         <div class="row justify-content-center">
+           <div class="col-lg-4 col-md-6 text-center">
+             <div class="mt-5 mx-auto">
+               <h3 class="mb-3">Malmö</h3>
+               <p class="text-muted mb-0">29 november kl 10-15</br><a href = "http://www.foocafe.org" target="_blank">Foo Café</p>
+               </br><a href="http://www.foocafe.org/event/programmering-foer-kvinnor-i-alla-aldrar1" target="_blank" class="btn btn-primary btn-lg sr-icons">Anmälan Malmö</a></hr>
+             </div>
+           </div>
+           <div class="col-lg-4 col-md-6 text-center">
+             <div class="mt-5 mx-auto">
+               <h3 class="mb-3">Umeå</h3>
+               <p class="text-muted mb-0">29 november kl 14-18 </br>Sliperiet</p>
+             </br><a href="http://www.datatjej.se/pepparkakskodning" target="_blank" class="btn btn-primary btn-lg sr-icons">Anmälan Umeå</a>
+             </div>
+           </div>
+           <div class="col-lg-4 col-md-6 text-center">
+             <div class="mt-5 mx-auto">
+               <h3 class="mb-3">Göteborg</h3>
+               <p class="text-muted mb-0">6 december kl 11-17 </br><a href = "https://www.google.se/maps/place/Vallgatan+22,+411+16+G%C3%B6teborg/@57.7038189,11.9635915,17z/data=!3m1!4b1!4m6!1m3!3m2!1s0x464ff36606c479e7:0x937e7a31108a27cb!2sSpotify+AB!3m1!1s0x464ff365f08b047d:0x47a6d8a7c5385e62" target = "_blank">Spotify</p>
+               </br><a href="https://docs.google.com/forms/d/139qHEK3spt8K_D4O0nSnAKJKRjVGDdMuisEgn7j_vzw/viewform?usp=send_form" target="_blank" class="btn btn-primary btn-lg sr-icons">Anmälan Göteborg</a>
 
-                </div>
-                <div class="col-lg-4 text-center">
-                     <h3>Umeå</h3>
-                    <p class="text-muted">29 november kl 14-18 </br>Sliperiet</p>
-                 <a href="http://www.datatjej.se/pepparkakskodning" target="_blank" class="btn btn-primary btn-lg wow tada">Anmälan Umeå</a>
-                </div>
-                <div class="col-lg-4 text-center">
-                     <h3>Göteborg</h3>
-                    <p class="text-muted">6 december kl 11-17 </br><a href = "https://www.google.se/maps/place/Vallgatan+22,+411+16+G%C3%B6teborg/@57.7038189,11.9635915,17z/data=!3m1!4b1!4m6!1m3!3m2!1s0x464ff36606c479e7:0x937e7a31108a27cb!2sSpotify+AB!3m1!1s0x464ff365f08b047d:0x47a6d8a7c5385e62" target = "_blank">Spotify</p>
-                 <a href="https://docs.google.com/forms/d/139qHEK3spt8K_D4O0nSnAKJKRjVGDdMuisEgn7j_vzw/viewform?usp=send_form" target="_blank" class="btn btn-primary btn-lg wow tada">Anmälan Göteborg</a>
-                </div>
-            </div>
-        </div>
-    </section>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
 
-    <aside class=" bg-dark">
+
+    <aside class="bg-dark text-white">
         <div class="container text-center">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-sm-1 col-sm-offset-4 text-center">
                 <p>
                     <a class="btn btn-social-icon btn-fb-custom btn-facebook" href="http://www.facebook.com/sharer.php?u=http://pinkprogramming.se/pepparkakskodning/">
-                     <span class="fa fa-facebook"></span> </a> 
-                     </p>    
+                     <span class="fa fa-facebook"></span> </a>
+                     </p>
                 </div>
                   <div class="col-sm-2 text-center">
                     <p>
                      <a class="btn btn-social-icon btn-fb-custom btn-twitter" href="https://twitter.com/home?status=Adventsfirande%20med%20Pink%20Programming%20och%20DataTjej%20http%3A//www.pinkprogramming.se/pepparkakskodning/">
-                      <span class="fa fa-twitter"></span> </a>  </p>   
+                      <span class="fa fa-twitter"></span> </a>  </p>
                 </div>
                <div class="col-sm-1 text-center">
                <p>
                     <a class="btn btn-social-icon btn-fb-custom btn-linked" href="https://www.linkedin.com/shareArticle?mini=true&url=pinkprogramming.se/pepparkakskodning&title=Pepparkakskodning&summary="Kom och koda med oss"&source=source">
-                     <span class="fa fa-linkedin"></span>  </a> </p>     
+                     <span class="fa fa-linkedin"></span>  </a> </p>
                 </div>
         </div>
     </aside>
@@ -164,21 +171,23 @@
     <section id="organizer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-lg-8 mx-auto text-center">
                     <h2 class="section-heading">Arrangör</h2>
-                    <hr class="primary">
-                    <p>Pepparkakskodning är ett samarbete mellan Pink Programming och DataTjej, som båda har som mål att få fler kvinnor att upptäcka det roliga med programmering.</p>
+                    <hr class="my-4">
+                    <p class="mb-4">Pepparkakskodning är ett samarbete mellan Pink Programming och DataTjej, som båda har som mål att få fler kvinnor att upptäcka det roliga med programmering.</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
+            </div>
+            <div class="row">
+                <div class="col-lg-4 ml-auto text-center">
                      <a href = "http://pinkprogramming.se" target="_blank">
-                    <img src="img/QWERTY_Fingernails.png" class="img-responsive img-organizer center-block" alt=""/> 
+                    <img src="img/QWERTY_Fingernails.png" class="img-responsive img-organizer center-block" alt=""/>
                     </a>
                     <h3>Pink Programming</h3>
                      <p class="text-muted">info@pinkprogramming.se</p>
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-4 mr-auto text-center">
                     <a href = "http://www.datatjej.se" target="_blank">
-                    <img src="img/datatjej.png" class="img-responsive img-organizer center-block" alt=""/> 
+                    <img src="img/datatjej.png" class="img-responsive img-organizer center-block" alt=""/>
                     </a>
                     <h3>DataTjej</h3>
                     <p class="text-muted">kontakt@datatjej.se</p>
@@ -188,11 +197,10 @@
     </section>
 
     <aside class="bg-primary" id="info">
-        <div class="container">
+        <div class="container text-center">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Hoppas vi ses! </h2> 
-  </a>
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-heading">Hoppas vi ses! </h2>
                 </div>
             </div>
         </div>
@@ -201,10 +209,12 @@
     <section id="sponsor">
         <div class="container">
             <div class="row text-center">
-                 <div class="col-lg-8 col-lg-offset-2 text-center">
+                 <div class="col-lg-8 mx-auto text-center">
                     <h2 class="section-heading">Tack till</h2>
-                    <hr class="primary">
+                    <hr class="my-4">
                  </div>
+            </div>
+            <div class="row">
                 <div class="col-lg-3 text-center">
                     <p><a href = "http://www.mobenga.com" target="_blank">
                      <img src="img/mobenga_logo.png" class="img-responsive img-sponsor center-block" alt=""/> </a></p>
@@ -225,26 +235,24 @@
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="row copyright">
-                <div class="col-lg-8 col-lg-offset-2 text-cente">
+                <div class="col-lg-8 mx-auto text-center">
                     Copyright © Pink Programming 2015
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="jquery-easing/jquery.easing.min.js"></script>
+    <script src="scrollreveal/scrollreveal.min.js"></script>
+    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+    <script src="js/creative.min.js"></script>
+
 
 </body>
 
