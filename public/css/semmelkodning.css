@@ -12,11 +12,11 @@ div#img-note span {
 }
 
 .bg-primary {
-  background-image: linear-gradient(rgba(232, 29, 131, 0.9), rgba(255, 255, 255, 1.0)), url("../img/snowy-background.png");
+  background-image: linear-gradient(rgba(232, 29, 131, 0.6), rgba(255, 255, 255, 1.0)), url("../img/snowy-background.png");
 }
 
 .bg-primary#info {
-  background-image: linear-gradient(rgba(255, 255, 255, 1.0),rgba(232, 29, 131, 0.9)), url("../img/snowy-background.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 1.0),rgba(232, 29, 131, 0.6)), url("../img/snowy-background.png");
 }
 
 .btn-primary {
