@@ -1,3 +1,16 @@
+div#img-note {
+  position: relative;
+  width: 0px;
+  height: 0px;
+  content: "";
+}
+div#img-note span {
+  position: absolute;
+  color: rgba(125, 125, 125, 0.5);
+  bottom: 0px;
+  width: max-content;
+}
+
 .img-organizer {
     max-height: 150px;
 }
