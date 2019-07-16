@@ -169,7 +169,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("https://cdn.glitch.com/17421bd4-ed96-4602-b1a9-69c1558224c2%2Fheader.jpg?1518535279201");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;

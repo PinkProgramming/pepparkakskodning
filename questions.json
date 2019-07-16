@@ -1,0 +1,70 @@
+[{
+		"question": "How many legs does a cat have?",
+		"answers": [{
+				"text": "One",
+				"correct": false,
+				"comment": "Hmpfh! It might look like that 😾",
+				"image": "https://cdn.glitch.com/39768791-8e7a-4cc5-930b-42ed12d8c943%2Fcat0.gif?1519311230715"
+			},
+			{
+				"text": "Four",
+				"correct": true,
+				"comment": "Yes! My cat too! 😺",
+				"image": "https://cdn.glitch.com/39768791-8e7a-4cc5-930b-42ed12d8c943%2Fcat4.png?1519311230998"
+			},
+			{
+				"text": "Five",
+				"correct": false,
+				"comment": "Uhm, actually, that fifth limb is the tail 😿",
+				"image": "https://cdn.glitch.com/39768791-8e7a-4cc5-930b-42ed12d8c943%2Fcat5.jpg?1519311230852"
+			}
+		],
+		"correctAnswer": "Four"
+	},
+	{
+		"question": "What's the meaning of 'fortkörning'?",
+		"answers": [{
+				"text": "Medieval castle transport",
+				"correct": false,
+				"comment": "Is this what you mean 🏰? Try again.",
+				"image": "https://cdn.glitch.com/39768791-8e7a-4cc5-930b-42ed12d8c943%2Ffortkorning100.jpg?1519497299731"
+			},
+			{
+				"text": "Fortran runtime",
+				"correct": false,
+				"comment": "You made an error ❌ Try again.",
+				"image": "https://cdn.glitch.com/39768791-8e7a-4cc5-930b-42ed12d8c943%2FX1iZd.png?1519497815356"
+			},
+			{
+				"text": "Speeding",
+				"correct": true,
+				"comment": "Yes, by the law! ✋",
+				"image": "https://cdn.glitch.com/39768791-8e7a-4cc5-930b-42ed12d8c943%2Fgotcha_speeding__darling__by_z_y_c-dbbp4k9.jpg?1519497818104"
+			}
+		],
+		"correctAnswer": "Speeding"
+	},
+	{
+		"question": "What's a 'hejduk'?",
+		"answers": [{
+				"text": "Gangster servant",
+				"correct": true,
+				"comment": "Yes, better watch out!",
+				"image": "https://cdn.glitch.com/39768791-8e7a-4cc5-930b-42ed12d8c943%2Fcat_agent.png?1519501753582"
+			},
+			{
+				"text": "A cheerful table cloth",
+				"correct": false,
+				"comment": "Oh, well, suppose not 🙄",
+				"image": "https://cdn.glitch.com/39768791-8e7a-4cc5-930b-42ed12d8c943%2Fhejduk72.jpg?1519501754370"
+			},
+			{
+				"text": "Bandanas of a soccer cheering section",
+				"correct": false,
+				"comment": "No, but at least it's a soccer team! ",
+				"image": "https://cdn.glitch.com/39768791-8e7a-4cc5-930b-42ed12d8c943%2Fhajduk_split_soccer_team_t_shirt_art_by_payuta-d4r18j2.jpg?1519501754056"
+			}
+		],
+		"correctAnswer": "Gangster servant"
+	}
+]

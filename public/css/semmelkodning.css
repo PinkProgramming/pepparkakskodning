@@ -12,11 +12,11 @@ div#img-note span {
 }
 
 .bg-primary {
-  background-image: linear-gradient(rgba(232, 29, 131, 0.6), rgba(255, 255, 255, 1.0)), url("../img/snowy-background.png");
+  background-image: linear-gradient(rgba(232, 29, 131, 0.6), rgba(255, 255, 255, 1.0)), url("https://cdn.glitch.com/17421bd4-ed96-4602-b1a9-69c1558224c2%2Fsnowy-background.png?1518535274322");
 }
 
 .bg-primary#info {
-  background-image: linear-gradient(rgba(255, 255, 255, 1.0),rgba(232, 29, 131, 0.6)), url("../img/snowy-background.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 1.0),rgba(232, 29, 131, 0.6)), url("https://cdn.glitch.com/17421bd4-ed96-4602-b1a9-69c1558224c2%2Fsnowy-background.png?1518535274322");
 }
 
 .btn-primary {
@@ -33,7 +33,8 @@ header p {
 }
 
 .img-organizer {
-    max-height: 150px;
+  max-height: 150px;
+  max-width: 100%;
 }
 
 .img-sponsor {
